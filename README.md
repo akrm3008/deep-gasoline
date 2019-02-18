@@ -1,9 +1,9 @@
 # Problem and Objective
 
 During the gasoline shortage crisis in Florida in the onset of Irma, the following kinds of tweets were observed:
-"The shelters are full, there is no gas. Tornados could happen, and storm surge is predicted. So what are people supposed to do? Irma "
-"Insane..95 percent of Florida trying to leave at one time. Roads r slammed. No gas. No hotels available. Scared to see my neighborhood after irma"
-"Gas stations out of gas, water shelves empty, stores and airports closed. Stocked up on food and wine, waiting on irma"
+* "The shelters are full, there is no gas. Tornados could happen, and storm surge is predicted. So what are people supposed to do? Irma "
+*"Insane..95 percent of Florida trying to leave at one time. Roads r slammed. No gas. No hotels available. Scared to see my neighborhood after irma"
+*"Gas stations out of gas, water shelves empty, stores and airports closed. Stocked up on food and wine, waiting on irma"
 
 The natural question that arises is that can social media be used to detect gasoline shortage. In this project we explored the potential of different deep neural netwroks in detecting such tweets using Keras
 
