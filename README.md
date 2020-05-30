@@ -36,6 +36,6 @@ We also tested on three different kinds of Word Embedding:
 * Word Embedings from Glove 
 
 # Results 
-The hiegst validation accuracy is achieved for LSTM, units = 100, dropout ratio = 0.5, learning rate = 1, with the Glove embeddig matrix.
+The highest validation accuracy is achieved for LSTM, units = 100, dropout ratio = 0.5, learning rate = 1, with the Glove embeddig matrix.
 For detailed results check the attached juputer notebook.
 
