@@ -5,37 +5,16 @@ During the gasoline shortage crisis in Florida in the onset of Irma, the followi
 * "Insane..95 percent of Florida trying to leave at one time. Roads r slammed. No gas. No hotels available. Scared to see my neighborhood after irma"
 * "Gas stations out of gas, water shelves empty, stores and airports closed. Stocked up on food and wine, waiting on irma"
 
-The natural question that arises is that can social media be used to detect gasoline shortage. In this project we explored the potential of different deep neural netwroks in detecting such tweets using Keras
+Other issues were also reported. We explore different approaches for situation awareness and social sensing using social media posts during disatser
 
 # Methodology
 
-To build the most accurate classifier we did 3 kinds of experiments:
+We tested the following approaches:
 
-* Testing different kinds of Classifiers
-* Varying the Hyper-parameters of the most accurate classifier
-* Varying the Embedding Matrix
-
-
-We tested 3 different kinds of ANN’s:
-
-* LSTM
-* CNN with a Convolutional Layer
-* CNN with a Convolutional and a Maxpool Layer
+* Traing different Classifiers - LSTMS, RNNs etc to detect specific issues like gasoline shortage.
+* Finetuned open source LLMS like LLama for the above task.
+* Developed a RAG approach for general situation awareness and ability to detect and deep dive into specific issues 
 
 
-We found that LSTM was the best performer amongst all the classifiers as described in the result section. Hence to find the most accurate LSTM classifier, we varied the following hyper parameters:
 
-* Number of units in the LSTM Hidden Layer 
-* Dropout Ratio
-* Learning Rate of Adadelta Optimizer
-
-
-We also tested on three different kinds of Word Embedding:
-* Self-trained Word Embeddings in Keras
-* Word Embeddings from CrisisNLP’s github repository 
-* Word Embedings from Glove 
-
-# Results 
-The highest validation accuracy is achieved for LSTM, units = 100, dropout ratio = 0.5, learning rate = 1, with the Glove embeddig matrix.
-For detailed results check the attached juputer notebook.
 
